@@ -1,0 +1,18 @@
+body
+{
+  font-family: sans-serif;
+  font-size: 12pt;
+  background-color: pink;
+}
+
+.header
+{
+  background: #cccccc;
+  padding: 10px;
+}
+
+.profile
+{
+  background: pink;
+  padding: 10px;
+}
