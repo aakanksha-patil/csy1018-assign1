@@ -1,38 +1,220 @@
-body
-{
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 10pt;
-  background-color: pink;
-}
-
-.header
-{
-  background: #cccccc;
-  padding: 10px;
-}
-
-.profile
-{
-  background: pink;
-  padding: 10px;
-}
-
+@charset "UTF-8";
+/* CSS Document */
 body{
-  margin: 0px;
-  border: 0px;
-  padding-top: 70px;
+  font-family: 'Satisfy', sans-serif;
+  background-color: darkgrey;
 }
-
-navbar{
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#nav1{
+  font-family:'Satisfy', sans-serif;
   width: 100%;
   height: 70px;
-  background-color:black;
-  color: black;
-  position:fixed;
-  top:0;
+  line-height: 70px;
+  background: crimson;
 }
-linkref{
-  color: pink;
+#nav1 h1{
+  float: left;
+  font-size: 2.5em;
+  margin-left: 15px;
+}
+#nav1 h1 a{
   text-decoration: none;
-  padding: 40px;
+  color: white;
+}
+#nav1 ul{
+  float: right;
+  margin-right: 15px;
+}
+#nav1 ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+#nav1 ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+}
+#nav1 ul li:hover{
+  background: black;
+  transition: all ease-in-out 0.45s;
+}
+#active{
+  background: black;
+}
+#main-content{
+  font-family: 'Satisfy', sans-serif;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  color: black;
+  line-height: 40px;
+
+}
+#about{
+  font-family: 'Satisfy', sans-serif;
+  background: crimson;
+  width: 170px;
+  height: 60px;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  color: white;
+  font-weight: 100;
+
+}
+#about:hover{
+  box-shadow: 1px 5px 2px 2px rgba(84, 69, 69, 0.53);
+  transition: all ease-in-out 0.45s;
+}
+#about a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+#back{
+  font-family: 'Satisfy', sans-serif;
+  width: 100%;
+  height: 200px;
+  background: white;
+}
+#back1{
+  width: 400px;
+  height: 300px;
+  padding: 5px;
+  display:flex;
+  float:inherit;
+  margin: 15px;
+  text-align: center;
+}
+#back1 img{
+  width:300px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+#footer{
+  font-family: 'Satisfy', sans-serif;
+  width: 100%;
+  height: 150px;
+  background: rgba(47, 49, 49, 0.91);
+  line-height: 150px;
+}
+#footer h2{
+  color: white;
+  float: right;
+  margin-right: 20px;
+  font-weight: 200;
+}
+#nav2 ul{
+  float: left;
+  margin-left: 20px;
+}
+#nav2 ul li{
+  display: inline-block;
+  list-style-type: none;
+
+}
+#nav2 ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+#icon{
+  font-size: 35px;
+}
+#icon2{
+  font-size: 35px;
+}
+#icon3{
+  font-size: 35px;
+}
+#icon:hover{
+  color: #516fad;
+  transition: all ease-in-out 0.40s;
+}
+#icon2:hover{
+  color:#1da1f2;
+  transition: all ease-in-out 0.40s;
+}
+#icon3:hover{
+  color: #d05252;
+  transition: all ease-in-out 0.40s;
+}
+#profile{
+  font-family: 'Satisfy', sans-serif;
+  width: 100%
+  height:250px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+#profile h3{
+  color: crimson;
+  background: darkgrey;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 50px;
+  font-weight: lighter;
+}
+#profile2 img{
+  width: 400px;
+  height: 400px;
+  margin-left: 101px
+}
+#text{
+  font-family: 'Satisfy',sans-serif;
+  float: right;
+  width: 500px;
+  margin-right: 50px;
+}
+#mainform{
+  width: 100%;
+  height: 500px;
+}
+#form{
+  width: 50%
+  height: 500px;
+  background: darkgrey;
+  color: white;
+  line-height: 35px;
+  float: left;
+
+
+
+}
+#form{
+  margin-left: 100px;
+}
+#name{
+  width: 300px;
+  height: 30px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#comment{
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  padding: 7px;
+}
+#subject{
+  width: 100px;
+  background: crimson;
+  height: 50px;
+  border: 0px;
+  color: white;
+  font-size: 18px;
+}
+#extra{
+  width: 50%;
+  float: right;
+  text-align: center;
+  line-height: 30px;
 }
