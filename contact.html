@@ -4,34 +4,49 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
         <title>Contact Form</title>
         </head>
         <body>
+          <div class="navbar">
+            <ul>
+            <a href="index.html" class="linkref">Home</a>
+            <a href="bio.html" class="linkref">Portfolio</a>
+            <a href="cv.html" class="linkref">CV</a>
+            <a href="contact.html" class="linkref">Contact</a>
+            </ul>
+          </div>
+          
     <div id="form-wrap">
       <form>
         <fieldset>
           <h1>Contact Aakanksha</h1>
           <h2>You can contact me via the below form.</h2>
           <h3>Drop me an email </h3>
-          <h4>- abhimanyupatil609@gmail.com</h4>
+          <h4>- aakanksha2761@outlook.com</h4>
+          <img src="images\myimage2.jpg.png" alt="My Image" width="128" height="128">
 
-          <label for="Your name">Your name: </label>
-          <input name="Your name"/> <br>
-        </br>
-          <label for="Your email address">Your email address: </label>
-          <input name="Your email address"/> <br>
-        </br>
-          <label for="Subject">Subject: </label>
-          <input name="Subject"/> <br>
-        </br>
-          <label for="Message">Message: </label>
-          <input name="Message"/>
+          <br>
+          <input type="text" name="name" id="name" placeholder="Your name" tabindex="1" required autofocus>
+          </br>
+          <br>
+          <input type="email" name="email" id="email" placeholder="Your email address" tabindex="2" required>
+          </br>
+          <br>
+          <input type="text" name="subject" id="subject" placeholder="Subject" tabindex="3" required>
+          </br>
+          <br>
+          <textarea name="message" id="message" rows="7" placeholder="Message" tabindex="4"></textarea>
+          </br>
+          <br>
+          <input type="submit" name="submit" value="Send Email" tabindex="5">
+          </br>
+
         </fieldset>
-        <fieldset>
-          <input class="btn" type="submit" value="send"/>
-          <input class="btn" type="reset" value="reset"/>
-          </fieldset
         </form>
+
+
+
         <div class="header">
           <h3>Address</h3>
           <p>
@@ -40,5 +55,9 @@
             St George's Avenue</br>
             Northampton-NN2 6JD</br>
           </p>
+
+
+
+
         </body>
 </html>
