@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Buenard', serif;
+    background-color: darkgrey;
 }
 
 * {
@@ -179,7 +180,9 @@ p {
     color: #1da1f2;
     transition: all ease-in-out 0.40s;
 }
-
+#p {
+  color: crimson;
+}
 #profile {
     font-family: 'Buenard', serif;
     width: 100% height: 250px;
