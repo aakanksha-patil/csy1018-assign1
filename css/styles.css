@@ -97,7 +97,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)
 }
 
 .container:hover .image {
@@ -188,7 +188,8 @@ p {
 }
 #profile {
     font-family: 'Buenard', serif;
-    width: 100% height: 250px;
+    width: 100%;
+    height: 250px;
     background-color: grey;
     margin-left: auto;
     margin-right: auto;
@@ -224,7 +225,8 @@ p {
 }
 
 #form {
-    width: 50% height: 500px;
+    width: 50% ;
+    height: 500px;
     background: darkgrey;
     color: white;
     line-height: 35px;
