@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* Aakanksha Patil, Student ID- 16432582 */
 /* CSS Document */
 
 body {
@@ -28,6 +28,7 @@ p {
     top: 15px;
     left: 5px;
 }
+
 
 #nav1 {
     font-family: 'Buenard', serif;
@@ -129,6 +130,7 @@ p {
     height: 150px;
     background: rgba(47, 49, 49, 0.91);
     line-height: 150px;
+
 }
 
 #footer h2 {
@@ -136,6 +138,7 @@ p {
     float: right;
     margin-right: 20px;
     font-weight: 200;
+    margin-top: -25px;
 }
 
 #nav2 ul {
